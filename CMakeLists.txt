@@ -15,6 +15,8 @@ project(project_model
   VERSION 1.0.0
   LANGUAGES C CXX)
 
+## 增加一个编译目标
+add_library(cppmodel "")
 
 ## language feature set like c++11， 自版本3.8+后有效。
 
